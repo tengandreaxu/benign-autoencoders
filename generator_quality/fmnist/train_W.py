@@ -9,7 +9,7 @@ import numpy as np
 import pandas as pd
 from generator_quality.DatasetsTorch import DatasetsTorch
 from generator_quality.torch_utils import accuracy, get_device, set_seed
-from generator_quality.fmnist.FMNIST import Discriminator
+from generator_quality.fmnist.Discriminator import Discriminator
 from plotting.Plotter import Plotter
 
 

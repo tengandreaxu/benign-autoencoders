@@ -6,11 +6,11 @@ import torch.optim as optim
 import numpy as np
 import pandas as pd
 from torchvision.utils import save_image
-from models.variational_autoencoders.MNISTVAE import VAE
+from generator_quality.VAE import VAE
 from generator_quality.DatasetsTorch import DatasetsTorch
 from plotting.Plotter import Plotter
-from utils.torch_utils import accuracy, get_device, set_seed
-from models.discriminators.MNISTTorch import Discriminator
+from generator_quality.torch_utils import accuracy, get_device, set_seed
+from generator_quality.mnist.Discriminator import Discriminator
 import logging
 
 logging.basicConfig(level=logging.INFO)
